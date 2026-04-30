@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "my-bridge-service",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.js"
+    }
+  ],
+  "env": {
+    "GATEWAY_URL": "آدرس مقصد شما در اینجا یا در پنل ورسل ست شود"
+  }
+}
